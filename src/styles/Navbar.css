@@ -1,0 +1,95 @@
+.header {
+  width: 100%;
+  height: 121px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 40;
+}
+.header p:hover {
+  color: rgb(0, 170, 91);
+}
+/* Atas navbar */
+.atas {
+  color: rgb(109, 117, 136);
+  font-family: sans-serif, Arial, Helvetica;
+  height: 32px;
+  background-color: rgb(240, 243, 247);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+}
+.kiriatas {
+  display: flex;
+  align-items: center;
+}
+.kananatas {
+  display: flex;
+}
+.kananatas p {
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+/* Tengah navbar */
+.tengah {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 34px;
+  padding-right: 25px;
+  align-items: center;
+}
+.kiritengah {
+  display: flex;
+  align-items: center;
+}
+.kiritengah p {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(33, 33, 33);
+}
+.kiritengah p:hover {
+  background-color: rgb(240, 243, 247);
+}
+.tengahtengah {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.bawah {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 30px;
+
+  margin-left: 270px;
+}
+.kananbawah {
+  display: flex;
+  align-items: center;
+}
+.kananbawah p {
+  margin-right: 18px;
+  color: rgb(109, 117, 136);
+}
+.lokasi {
+  display: flex;
+  align-items: center;
+}
